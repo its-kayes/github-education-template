@@ -26,7 +26,8 @@ section.dark {
   min-height: 100vh;
   color: white;
   background: rgba(0, 0, 0, 0.25);
-  /* background: rgba(36, 82, 116, 0.25); */
+  /* background: rgba(59, 59, 84, 0.673); */
+  /* background: #e1c896; */
 }
 
 section.light {
@@ -126,10 +127,17 @@ img.socialIcon {
 }
 
 .name-title {
-  font-weight: 600;
-  /* background-color: red; */
+  text-shadow: #4e567e;
+  font-weight: 500;
 }
 
 .title-section {
   backdrop-filter: blur(2px);
+}
+
+@media screen and (min-width: 480px) {
+  .header-title {
+    position: absolute;
+    left: 85%;
+  }
 }

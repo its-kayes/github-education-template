@@ -6,6 +6,8 @@
  */
 import React from "react";
 
+// import {cv} from "../images/socials/emrul-kayes.pdf"
+
 const Header = () => {
   return (
     <div
@@ -17,7 +19,8 @@ const Header = () => {
         background: "rgba(255,255,255,0.75)",
         padding: "1rem",
         top: 0,
-        width: "100vw",
+        // width: "100vw",
+        width: "100%",
         zIndex: 10,
       }}
     >
@@ -25,6 +28,8 @@ const Header = () => {
       <a href="#about">About</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
+      <a href="../emrul-kayes.pdf" download className="header-title">Download Resume</a>
+      {/* <a href={cv} download className="header-title">Download Resume</a> */}
     </div>
   );
 };
