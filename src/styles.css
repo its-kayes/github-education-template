@@ -123,3 +123,12 @@ img.socialIcon {
   width: 30px;
   height: 30px;
 }
+
+.name-title {
+  font-weight: 600;
+  /* background-color: red; */
+}
+
+.title-section {
+  backdrop-filter: blur(2px);
+}
