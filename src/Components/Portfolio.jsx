@@ -20,6 +20,7 @@ import React from "react";
  * freely use on your site.
  */
 import image from "../images/design-desk.jpeg";
+// import image from "../images/kayes-with-laptop.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +32,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Before my internship begins, I work on a few projects 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Collaboration to create a beginner friendly project to help explain Web development and tooling to get started.",
+    url: "https://emrul-kayes.live/project",
   },
   {
-    title: "Web Development for Beginners",
+    title: "More about me",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Reading the documentation for other things in addition to programming.",
+    url: "https://emrul-kayes.live/aboutme",
   },
   {
-    title: "My Resume Site",
+    title: "Resume find",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Team player with self-motivation and a grasp for learning new skills. quick learner and a good team player.",
+    url: "https://drive.google.com/file/d/12hfLgaOUyxGkREqni8iDFLlmFNUKSC15/view?usp=sharing",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Checkout On GitHub.",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Github is a place where I can share my work with the world. I also use it to collaborate with others on projects.",
+    url: "https://github.com/its-kayes",
   },
 ];
 
