@@ -29,10 +29,10 @@ const siteProps = {
   email: "kayes.ek8@gmail.com",
   gitHub: "its-kayes",
   instagram: "___kayes__/",
-  linkedIn: "in/its-kayes",
-  medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  linkedIn: "its-kayes",
+  medium: "d",
+  // twitter: "microsoft",
+  // youTube: "Code",
 };
 
 const primaryColor = "#4E567E";
