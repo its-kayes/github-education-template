@@ -5,10 +5,28 @@
  * user scrolls so that they can constantly reach any part of your page.
  */
 import React from "react";
+import { saveAs } from 'file-saver';
 
-// import {cv} from "../images/socials/emrul-kayes.pdf"
 
 const Header = () => {
+
+  const downloadPDF = () => {
+    const fileUrl = '../../public/kayes.pdf'; // Replace with the URL of your PDF file
+    const fileName = 'kayes.pdf'; // Replace with the name of your PDF file
+
+    // Fetch the file as a Blob object
+    fetch(fileUrl)
+      .then(response => response.blob())
+      .then(blob => {
+        // Save the Blob object as a file using FileSaver.js
+        saveAs(blob, fileName);
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  }
+
+
   return (
     <div
       style={{
@@ -28,8 +46,7 @@ const Header = () => {
       <a href="#about">About</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
-      <a href="../emrul-kayes.pdf" download className="header-title">Download Resume</a>
-      {/* <a href={cv} download className="header-title">Download Resume</a> */}
+      <a href="_" target="_blank" onClick={downloadPDF} type className="header-title">Get Resume</a>
     </div>
   );
 };
